@@ -53,6 +53,9 @@ body {
 	background: #252222;
 	z-index: 100;
 	display: inline-flex;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
 }
 
 .nav_wrapper.sticky {
@@ -497,7 +500,7 @@ display:none;
 	margin-right: 4%;
 }
 .bio h4 {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	color: #fff;
 	font-weight: 600;
 	text-align: center;
@@ -512,22 +515,22 @@ display:none;
 	width: 48%;
 }
 .bio-right h6 {
-	font-size: 1.3em;
+	font-size: 1.8em;
 	color: #fff;
-	font-weight: 400;
+	font-weight: 600;
 	text-align:left;
 	margin-bottom: 4%;
 }
 .bio-right p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 0.8755em;
+	font-size: 1.5em;
 	color: #eee;
 	text-align:left;
 	margin-bottom: 2%;
 }
 /* bio */
 .contact{
-	background: url("../images/contact.jpg") no-repeat;
+	/*background: url("../images/contact.jpg") no-repeat;*/
 	padding: 3% 0%;
 	text-align: center;
 }
@@ -540,13 +543,13 @@ display:none;
 }
 .contact h5 {
 	font-size: 2em;
-	color: #fff;
+	color: #7e7e7e;
 	font-weight: 600;
 	text-align: center;
 }
 .contact P {
 	font-size: 1.2em;
-	color: #fff;
+	color: #7e7e7e;
 	font-weight: 600;
 	text-align: center;
 }
@@ -560,7 +563,7 @@ display:none;
 }
 .form input[type="text"]{
 	font-size:2em;
-	color: #fff;
+	color: #7e7e7e;
 	padding: 15px;
 	display: block;
 	margin-bottom: 7%;
@@ -570,7 +573,7 @@ display:none;
 	font-family: 'Open Sans', sans-serif;
 	background: none;
 	border:3px solid #fff;;
-	text-transform:capitalize;
+	/*text-transform:capitalize;*/
 	outline: none;
 	-webkit-appearance: none;
 }
@@ -580,7 +583,7 @@ display:none;
 .copy-right p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 0.8755em;
-	color: #fff;
+	color: #7e7e7e;
 	margin-top: 4%;
 }
 .copy-right p a{

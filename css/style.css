@@ -189,7 +189,7 @@ body {
 	background: url("../images/banner3.jpg") no-repeat;
 	background-size: 100%;
 	text-align: left;
-	padding: 5% 0;
+	padding: 15% 0;
 }
 .message h3 {
 	color: #ffffff;
@@ -602,7 +602,7 @@ display:none;
 		width:75%;
 	}	
 	.message {
-		padding: 4% 0;
+		/*padding: 4% 0;*/
 	}
 }
 @media only screen and (max-width: 1280px) {

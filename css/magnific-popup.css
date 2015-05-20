@@ -89,7 +89,7 @@ button::-moz-focus-inner {
 	margin-bottom:10px;
 }
 #small-dialog2 {
-	background: #FFF;
+	background: rgba(185, 185, 185, 0);
 	padding: 10px 15px;
 	text-align: left;
 	max-width:36%;
@@ -97,7 +97,11 @@ button::-moz-focus-inner {
 	position: relative;
 }
 .pop_up2{
-	padding:2em;
+	padding: 1em;
+	background: rgba(103, 191, 199, 0.64);
+}
+#small-dialog2 > div > img {
+	width: 100%;
 }
 .pop_up2 h2{
 	padding:10px 0;
@@ -118,6 +122,9 @@ button::-moz-focus-inner {
 	max-width:36%;
 	margin: 40px auto;
 	position: relative;
+}
+#small-dialog3 > div > img {
+	width: 100%;
 }
 .pop_up3{
 	padding:2em;
@@ -142,6 +149,9 @@ button::-moz-focus-inner {
 	margin: 40px auto;
 	position: relative;
 }
+#small-dialog4 > div > img {
+	width: 100%;
+}
 .pop_up4{
 	padding:2em;
 }
@@ -164,6 +174,9 @@ button::-moz-focus-inner {
 	max-width:36%;
 	margin: 40px auto;
 	position: relative;
+}
+#small-dialog5 > div > img {
+	width: 100%;
 }
 .pop_up5{
 	padding:2em;

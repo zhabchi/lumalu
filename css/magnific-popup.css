@@ -71,7 +71,7 @@ button::-moz-focus-inner {
 }
 .pop_up{
 	padding: 1em;
-	background: rgba(103, 191, 199, 0.64);
+	/*background: rgba(103, 191, 199, 0.64);*/
 }
 #small-dialog1 > div > img {
 	width: 100%;
@@ -216,6 +216,116 @@ button::-moz-focus-inner {
 	font-size: 0.85em;
 	margin-bottom:10px;
 }
+#small-dialog7{
+	background: #FFF;
+	padding: 10px 15px;
+	text-align: left;
+	max-width:36%;
+	margin: 40px auto;
+	position: relative;
+}
+#small-dialog7 > div > img {
+	width: 100%;
+}
+.pop_up7{
+	padding:2em;
+}
+.pop_up7 h2{
+	padding:10px 0;
+	color: #000;
+	font-size:1em;
+	text-transform: uppercase;
+}
+.pop_up7 p{
+	line-height: 1.8em;
+	color: #999;
+	font-size: 0.85em;
+	margin-bottom:10px;
+}
+
+#small-dialog8{
+	background: #FFF;
+	padding: 10px 15px;
+	text-align: left;
+	max-width:36%;
+	margin: 40px auto;
+	position: relative;
+}
+#small-dialog8 > div > img {
+	width: 100%;
+}
+.pop_up8{
+	padding:2em;
+}
+.pop_up8 h2{
+	padding:10px 0;
+	color: #000;
+	font-size:1em;
+	text-transform: uppercase;
+}
+.pop_up8 p{
+	line-height: 1.8em;
+	color: #999;
+	font-size: 0.85em;
+	margin-bottom:10px;
+}
+
+
+#small-dialog9{
+	background: #FFF;
+	padding: 10px 15px;
+	text-align: left;
+	max-width:36%;
+	margin: 40px auto;
+	position: relative;
+}
+#small-dialog9 > div > img {
+	width: 100%;
+}
+.pop_up9{
+	padding:2em;
+}
+.pop_up9 h2{
+	padding:10px 0;
+	color: #000;
+	font-size:1em;
+	text-transform: uppercase;
+}
+.pop_up9 p{
+	line-height: 1.8em;
+	color: #999;
+	font-size: 0.85em;
+	margin-bottom:10px;
+}
+
+#small-dialog10{
+	background: #FFF;
+	padding: 10px 15px;
+	text-align: left;
+	max-width:36%;
+	margin: 40px auto;
+	position: relative;
+}
+#small-dialog10 > div > img {
+	width: 100%;
+}
+.pop_up10{
+	padding:2em;
+}
+.pop_up10 h2{
+	padding:10px 0;
+	color: #000;
+	font-size:1em;
+	text-transform: uppercase;
+}
+.pop_up10 p{
+	line-height: 1.8em;
+	color: #999;
+	font-size: 0.85em;
+	margin-bottom:10px;
+}
+
+
 /* Styles for dialog window */
 .my-mfp-zoom-in #small-dialog1 {
 	opacity: 0;

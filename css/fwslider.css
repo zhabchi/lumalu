@@ -1,4 +1,40 @@
 /* ------------------------------- 3. Slider Styles ------------------------------- */
+/*font face*/
+
+@font-face {
+font-family: 'Champagne & Limousines';
+font-style: normal;
+font-weight: normal;
+src: local('Champagne & Limousines'), url('fonts/Champagne & Limousines.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Champagne & Limousines Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Champagne & Limousines Italic'), url('fonts/Champagne & Limousines Italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Champagne & Limousines Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Champagne & Limousines Bold'), url('fonts/Champagne & Limousines Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Champagne & Limousines Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Champagne & Limousines Bold Italic'), url('fonts/Champagne & Limousines Bold Italic.woff') format('woff');
+}
+
+
+/*end of font face*/
+
 body > div.images-slider {
 	margin-bottom: -5px;
 }
@@ -102,22 +138,21 @@ body > div.images-slider {
 	margin: 5.5% auto 0;
 }
 #fwslider .title {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Champagne & Limousines','Open Sans Condensed', sans-serif;
 	color: #fff;
-	font-size: 5.5em;
 	padding: 0px 20px 0;
-	margin-bottom: -49px;
+	margin-bottom: -29px;
 	font-style: normal;
-	font-weight: 600;
+	
+	font-size: 4.5em;
 	border: none;
 	text-align: left;
 }
 #fwslider .description {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Champagne & Limousines','Open Sans Condensed', sans-serif;
 	color: #ffffff;
 	font-size: 2em;
 	margin: 2%;
-	font-weight: 600;
 }
 /* ------------------------------- 5. Media Query Max Width 719 ------------------------------- */
 @media only screen and (max-width:1366px) {

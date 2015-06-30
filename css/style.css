@@ -22,8 +22,13 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
+
+
+
+
+
 body {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family:  'Lora',sans-serif; ,'Open Sans Condensed', sans-serif;
 	background:#ffffff;
 }
 .wrap {
@@ -49,7 +54,7 @@ body {
 }
 .nav_wrapper {
 	width: 100%;
-	background: #252222;
+	background: #CDCDCD;
 	z-index: 100;
 	display: inline-flex;
 	display: -webkit-inline-flex;
@@ -161,7 +166,8 @@ body {
 }
 /* PORTFOLIO */
 .portfolio{
-	background: #65BA99;
+	background: rgb(209, 219, 194);
+	;
 	margin-top: -5px;
 	padding: 3% 0%;
 	text-align: center;
@@ -225,7 +231,7 @@ body {
 }
 .left h4{
 	float:left;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Philosopher','Open Sans', sans-serif;
 	font-size: 0.8755em;
 	color:#fff;
 	padding:1px 10px;
@@ -242,7 +248,7 @@ body {
 }
 .left h6 a{
 	font-style:italic;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Philosopher','Open Sans', sans-serif;
 	color: #E2534B;
 	font-size: 0.8755em;
 	padding: 0 4%;
@@ -255,7 +261,7 @@ body {
 	color: #59A386;
 }
 .left p{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Philosopher','Open Sans', sans-serif;
 	font-size: 1.2em;
 	text-align: left;
 	padding: 2% 0;
@@ -285,7 +291,7 @@ body {
 	border:3px solid #57A385;
 }
 .left p.a{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Philosopher','Open Sans', sans-serif;
 	color: #333;
 	font-size: 0.8755em;
 	text-align: left;
@@ -293,7 +299,7 @@ body {
 	line-height: 1.9em;
 }
 .left p.button{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Philosopher','Open Sans', sans-serif;
 	font-size: 0.8755em;
 	text-align:right;
 	padding: 0;
@@ -329,7 +335,7 @@ body {
 	margin-right: 2%;
 }
 .newsright ul li a{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Philosopher','Open Sans', sans-serif;
 	display: block;
 	font-size: 0.8755em;
 	color:#ECECEC;
@@ -360,7 +366,7 @@ body {
 	font-weight:300;
 }
 .top-grids h3 span{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Philosopher','Open Sans', sans-serif;
 	color: #333;
 	font-style:normal;
 	font-weight:500;
@@ -403,7 +409,7 @@ body {
 	font-size: 1.1em;
 }
 .top-grid2 p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Philosopher','Open Sans', sans-serif;
 	color: #333;
 	display: block;
 	font-size: 0.8755em;
@@ -480,7 +486,7 @@ display:none;
 /*---//End-trust-----*/
 /* bio */
 .bio{
-	background: #E2534B;
+	background: rgb(166,198,185);
 	margin-top: -5px;
 	padding: 3% 0%;
 	text-align: center;
@@ -521,10 +527,10 @@ display:none;
 	margin-bottom: 4%;
 }
 .bio-right p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
+	font-family: 'Philosopher','Open Sans', sans-serif;
+	font-size: 1.2em;
 	color: #eee;
-	text-align:left;
+	text-align: left;
 	margin-bottom: 2%;
 }
 /* bio */
@@ -569,7 +575,7 @@ display:none;
 	font-weight:600;
 	margin: 0 auto;
 	width:55%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Philosopher','Open Sans', sans-serif;
 	background: none;
 	border:3px solid #fff;;
 	/*text-transform:capitalize;*/
@@ -580,7 +586,7 @@ display:none;
 	text-align: center;
 }
 .copy-right p{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Philosopher','Open Sans', sans-serif;
 	font-size: 0.8755em;
 	color: #7e7e7e;
 	margin-top: 4%;
